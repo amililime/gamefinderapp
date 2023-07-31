@@ -28,9 +28,9 @@ Enjoy exploring and discovering various games using the Game Finder App!
 
 Technologies Used:
 
--JavaScript
--HTML
--CSS
+JavaScript
+HTML
+CSS
 
 APIs Used:
 
