@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo";
+  font-style: normal;
+  line-height: 2.715rem;
+  display: flex;
+  background-image: url("BGdark.png");
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.headingsContainer h1 {
+  font-size: 1rem;
+}
+
+.buttonContainers {
+  align-items: center;
+  display: grid;
+  gap: 0.9375rem;
+}
+
+.buttonContainer .loginbutton {
+  margin-bottom: 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+.or-text {
+  display: inline-block;
+  margin: 0 0.625rem;
+  color: #ccc;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: #bf5fe1;
+  float: right;
+  font-size: 1rem;
+}
+
+.register {
+  color: white;
+  text-align: center;
+}
+
+.register a {
+  color: #bf5fe1;
+  text-align: left;
+  margin: 0.25rem;
+}
+
+.register a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 37.5rem) {
+  form {
+    width: 100%;
+  }
+}
+
+.headingsContainer {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.headingsContainer h1 {
+  margin: 0;
+}
+
+.headingsContainer p {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.inputContainer input[type="text"],
+.inputContainer input[type="password"] {
+  width: 100%;
+  margin-bottom: 0.625rem;
+  border-radius: 0.3125rem;
+  padding: 0.5625rem 1rem;
+  box-sizing: border-box;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+input[type="password"] {
+  padding-right: 0.1875rem;
+}
+
+.eye {
+  position: absolute;
+  top: 60%;
+  right: 0.3125rem;
+  cursor: pointer;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.loginbutton {
+  background-color: #bf5fe1;
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0.3125rem;
+}
+
+button.loginbutton:hover {
+  background-color: #efc0ff;
+}
+
+.form-divider {
+  display: flex;
+  align-items: center;
+}
+
+.form-divider::before,
+.form-divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider-text {
+  margin: 0 0.625rem;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.form-container {
+  padding: 2.715rem;
+  margin-top: 10.9375rem;
+  margin-left: auto;
+  margin-right: 6.5625rem;
+  color: whitesmoke;
+  backdrop-filter: blur(1rem) saturate(180%);
+  -webkit-backdrop-filter: blur(1rem) saturate(180%);
+  background-color: rgba(11, 15, 13, 0.582);
+  border-radius: 0.625rem;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.buttonContainers button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
+}

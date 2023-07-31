@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Archivo";
+  font-style: normal;
+  line-height: 43px;
+  display: flex;
+  background-image: url("BGlight.png");
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.error-container {
+  color: red;
+  font-size: 15px;
+  margin-left: -102px;
+  margin-top: -19px;
+}
+
+.headingsContainer h1 {
+  font-size: 16px;
+}
+
+.buttonContainers {
+  align-items: center;
+  display: grid;
+  gap: 15px;
+}
+
+.buttonContainer .loginbutton {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.or-text {
+  display: inline-block;
+  margin: 0 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #494747;
+}
+
+a {
+  text-decoration: none;
+  color: #bf5fe1;
+  float: right;
+  font-size: 16px;
+}
+
+.register {
+  color: rgb(19, 18, 18);
+  text-align: center;
+}
+
+.register a {
+  color: #bf5fe1;
+  text-align: left;
+  margin: 4px;
+}
+
+.register a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
+
+.headingsContainer {
+  text-align: center;
+  font-size: 12px;
+}
+.headingsContainer h1 {
+  margin: 0;
+}
+
+.headingsContainer p {
+  margin: 0;
+  font-size: 15px;
+}
+.inputContainer input[type="text"],
+.inputContainer input[type="password"] {
+  width: 143%;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-container input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+.inputContainer {
+  position: relative;
+}
+
+input[type="password"] {
+  padding-right: 3px; /*create space for the eye icon on the right side of the input*/
+}
+
+.eye {
+  position: absolute;
+  top: 53%;
+  right: -33px;
+  cursor: pointer;
+}
+.input-container input::placeholder {
+  color: #999;
+}
+
+.input-container img {
+  position: absolute;
+  width: 4px;
+}
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.loginbutton {
+  background-color: #bf5fe1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button.loginbutton:hover {
+  background-color: #efc0ff;
+}
+
+.form-divider {
+  display: flex;
+  align-items: center;
+}
+
+.form-divider::before,
+.form-divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider-text {
+  margin: 0 10px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.form-container {
+  padding: 43px;
+  margin-top: 175px;
+  margin-left: auto;
+  margin-right: 105px;
+  color: whitesmoke;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(11, 15, 13, 0.582);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.buttonContainers button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+body.light-theme {
+  background: #f0f0f0;
+}
+
+body.light-theme header {
+  background-color: #eaeaea;
+  color: #000000;
+}
+
+body.light-theme h1 {
+  color: #000000;
+}
+
+body.light-theme p,
+body.light-theme a {
+  color: #000000;
+}
+
+body.light-theme nav {
+  color: #000000;
+}
+
+body.light-theme .card1 {
+  background-color: #ffffff;
+}
+
+body.light-theme h5 {
+  color: #000000;
+  font-size: 1.125rem;
+  margin: 0.9375rem;
+}
+
+body.light-theme .card-info p {
+  color: #424040;
+}
+
+body.light-theme span {
+  /*content of the release date and genre part of the card*/
+  color: rgb(20, 20, 20);
+}
+
+body.light-theme .card-icons {
+  filter: grayscale(100%);
+}
+img .icons {
+  filter: grayscale(100%);
+}
+
+body.light-theme .card-icons svg {
+  fill: grey;
+}

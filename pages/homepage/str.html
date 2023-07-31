@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" id="theme-style" href="light.css" />
+    <link rel="stylesheet" id="theme-style" href="dark.css" />
     <title>GameFinder</title>
   </head>
   <body>
@@ -15,6 +17,13 @@
         </div>
         <div class="search">
           <input type="text" placeholder="Search games..." />
+          <img id="logoimg" src="Theme=Dark.png" alt="Logo" />
+        </div>
+        <div class="search">
+          <input type="text" id="search-input" placeholder="Search games..." />
+          <!-- TODO: Eliminar el button y que se busque con enter-->
+          <button id="search-button">Search</button>
+          <div id="dropdown-container"></div>
         </div>
         <div class="user">
           <a href="#">Log out</a>
@@ -33,6 +42,12 @@
           <button>Dark mode</button>
           <button><img src="../assets/On.svg" alt="slide on" /></button>
         </div>
+        <img
+          id="themeToggle"
+          src="../assets/On.svg"
+          alt="Toggle theme button"
+        />
+
         <div class="activeicons">
           <img src="../assets/Active.svg" alt="active" />
           <img src="../assets/Disabled.svg" alt="disabled" />
