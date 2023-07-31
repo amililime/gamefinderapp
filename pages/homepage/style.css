@@ -19,7 +19,12 @@ header {
   justify-content: space-between;
   height: 50px;
 }
-
+.toggleButton {
+  width: auto;
+  display: flex;
+  margin: 1rem;
+  margin-left: auto;
+}
 .logo {
   width: 137px;
 }

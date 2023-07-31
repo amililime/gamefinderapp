@@ -13,15 +13,11 @@
     <header>
       <div class="container">
         <div class="logo">
-          <img src="Theme=Dark.png" alt="Logo" />
-        </div>
-        <div class="search">
-          <input type="text" placeholder="Search games..." />
           <img id="logoimg" src="Theme=Dark.png" alt="Logo" />
         </div>
+
         <div class="search">
           <input type="text" id="search-input" placeholder="Search games..." />
-          <!-- TODO: Eliminar el button y que se busque con enter-->
           <button id="search-button">Search</button>
           <div id="dropdown-container"></div>
         </div>
@@ -38,12 +34,9 @@
         <p>Based on player counts and release date</p>
       </div>
       <div class="styleicons">
-        <div class="slide">
-          <button>Dark mode</button>
-          <button><img src="../assets/On.svg" alt="slide on" /></button>
-        </div>
         <img
           id="themeToggle"
+          class="toggleButton"
           src="../assets/On.svg"
           alt="Toggle theme button"
         />
@@ -54,20 +47,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="global-container">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Reviews</a></li>
-          <li><a href="#">New releases</a></li>
-          <li><a href="#">This week</a></li>
-          <li><a href="#">This month</a></li>
-          <li><a href="#">Coming soon</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Last searches</a></li>
-          <li><a href="#">Best of the year</a></li>
-        </ul>
-      </nav> -->
 
     <div class="global-container">
       <nav>
@@ -110,47 +89,7 @@
         </ul>
       </nav>
 
-      <div class="card-container">
-        <div class="card1">
-          <img src="gameimage1.png" class="card-img-top" alt="Card image" />
-          <img class="heart" src="../assets/Heart.svg" alt="" />
-          <div class="card-body">
-            <div class="card-title">
-              <h5 class="game-name">Biomutant</h5>
-              <p class="number">#1</p>
-            </div>
-            <div class="card-info">
-              <div class="gameinfo">
-                <p class="release-date">
-                  Release date: <span class="date">May 31,2021</span>
-                </p>
-                <div class="card-icons">
-                  <img
-                    src="../assets/playstation.svg"
-                    alt="playstationicon"
-                    class="icons"
-                  />
-                  <img src="../assets/xbox.svg" alt="xboxicon" class="icons" />
-                  <img
-                    src="../assets/windows.svg"
-                    alt="windowsicon"
-                    class="icons"
-                  />
-                  <img
-                    src="../assets/switch.svg"
-                    alt="switchicon"
-                    class="icons"
-                  />
-                </div>
-              </div>
-
-              <p class="genres">
-                Genres: <span class="genre">Action, RPG</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="card-container"></div>
     </div>
     <script src="script.js"></script>
   </body>
