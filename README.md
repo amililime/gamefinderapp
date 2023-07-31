@@ -27,10 +27,13 @@ Click on a game from the search results to view detailed information about the s
 Enjoy exploring and discovering various games using the Game Finder App!
 
 Technologies Used:
-JavaScript
-HTML
-CSS
+
+-JavaScript
+-HTML
+-CSS
+
 APIs Used:
+
 Game API - The Game API provides access to a vast database of games, allowing the app to fetch and display relevant game information based on user searches.
 
 
